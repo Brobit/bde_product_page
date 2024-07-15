@@ -1,11 +1,3 @@
-import Mobile from "./Mobile.js"
-import Desktop from "./Desktop.js"
+import MainClass from "./website.js"
 
-// if (navigator.maxTouchPoints <= 1)
-// {
-// 	const desktopVersion = new Desktop();
-// }
-// else if (navigator.maxTouchPoints > 1)
-// {
-	const mobileVersion = new Mobile();
-// }
+const website = new MainClass();

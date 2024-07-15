@@ -14,7 +14,7 @@ body {
 	position: relative;
 }
 
-.section_mobile {
+.section {
 	position: absolute;
 	height: 119vh;
 	width: 100vw;
@@ -26,20 +26,20 @@ body {
 }
 
 @media only screen and (orientation : landscape) {
-	.section_mobile {
+	.section {
 		height: 130vh;
 	}
 }
 
 @media only screen and (min-device-width : 1224px)
 {
-	.section_mobile {
+	.section {
 		height: 100vh;
 		background: linear-gradient(180deg, rgba(50,133,103,0.20) -25%, rgba(50,133,103,1) 100%); 
 	}
 }
 
-.header_mobile {
+.header {
 	position: relative;
 	height: 18vh;
 	width: 100vw;
@@ -51,14 +51,14 @@ body {
 }
 
 @media only screen and (orientation : landscape) {
-	.header_mobile {
+	.header {
 		position: fixed;
 		background-position: left;
 		left: 5%;
 	}
 }
 
-.textArea_mobile {
+.textArea {
 	position: sticky;
 	display: flex;
 	flex: 1;
@@ -71,7 +71,7 @@ body {
 }
 
 @media only screen and (orientation : landscape) {
-	.textArea_mobile {
+	.textArea {
 		position: fixed;
 		width: 100%;
 		height: 12vh;
@@ -83,19 +83,19 @@ body {
 {
 	@media (orientation : landscape)
 	{
-		.textArea_mobile {
+		.textArea {
 			height: 16vh;
 		}
 	}
 	@media (orientation : portrait)
 	{
-		.textArea_mobile {
+		.textArea {
 			height: 4vh;
 		}
 	}
 }
 
-.text_banderole_mobile {
+.text_banderole {
 	position: relative;
 	font-family: pixel-bold;
 	font-size: 1.25em;
@@ -107,12 +107,12 @@ body {
 
 @media only screen and (min-device-width : 1224px)
 {
-	.text_banderole_mobile {
+	.text_banderole {
 		font-size: 1.75em;
 	}
 }
 
-.dropdown_mobile {
+.dropdown {
 	position: sticky;
 	display: flex;
 	flex: 1;
@@ -126,7 +126,7 @@ body {
 }
 
 @media only screen and (orientation:landscape) {
-	.dropdown_mobile {
+	.dropdown {
 		position: fixed;
 		margin-bottom: 0px;
 		height: 12vh;
@@ -138,13 +138,13 @@ body {
 {
 	@media (orientation : landscape)
 	{
-		.dropdown_mobile {
+		.dropdown {
 			height: 18vh;
 		}
 	}
 	@media (orientation : portrait)
 	{
-		.dropdown_mobile {
+		.dropdown {
 			height: 5vh;
 		}
 	}
@@ -186,17 +186,16 @@ body {
 	text-align: center;
 }
 
-.container_mobile {
+.container {
 	position: absolute;
 	display: flex;
 	height: 78vh;
 	width: 100%;
 	justify-content: center;
-	/* top: 10vh; */
 }
 
 @media only screen and (orientation: landscape) {
-	.container_mobile {
+	.container {
 		position: fixed;
 		align-items: flex-end;
 		height: 75vh;
@@ -208,34 +207,33 @@ body {
 {
 	@media (orientation : landscape)
 	{
-		.container_mobile {
-			top: calc(100lvh - 80vh);
+		.container {
+			top: calc(100lvh - 75vh);
 		}
 	}
 	@media (orientation : portrait)
 	{
-		.container_mobile {
-			top:calc(100lvh - 60 vh);
-			height: 68vh;
+		.container {
+			top:calc(100lvh - 72vh);
+			height: 70vh;
 		}
 	}
 }
 
-.productContainer_mobile {
+.productContainer {
 	position: sticky;
 	display: flex;
 	flex-wrap: wrap;
 	width: 80%;
 	height: fit-content;
 	max-height: 95%;
-	/* background-color: red; */
 	overflow-y: auto;
 	justify-content: space-between;
 	top: 17vh;
 }
 
 @media only screen and (orientation: landscape) {
-	.productContainer_mobile {
+	.productContainer {
 		top: 17lvh;
 		height: 95%;
 		min-height :calc(200px);
@@ -244,20 +242,20 @@ body {
 
 @media only screen and (min-device-width : 1224px)
 {
-	.productContainer_mobile {
+	.productContainer {
 		width: fit-content;
 		justify-content: center;
 	}
 }
 
-.sampleDiv_mobile {
+.sampleDiv {
 	width: 48%;
 	height: 35%;
 	z-index: 2;
 }
 
 @media only screen and (orientation:landscape) {
-	.sampleDiv_mobile {
+	.sampleDiv {
 		display: flex;
 		flex-wrap: nowrap;
 		height: 40%;
@@ -269,7 +267,7 @@ body {
 {
 	@media (orientation : landscape)
 	{
-		.sampleDiv_mobile {
+		.sampleDiv {
 			flex-wrap: wrap;
 			justify-content: center;
 			min-width: 200px;
@@ -281,7 +279,7 @@ body {
 	}
 	@media (orientation : portrait)
 	{
-		.sampleDiv_mobile {
+		.sampleDiv {
 			display: flex;
 			flex-wrap: wrap;
 			justify-content: center;
@@ -291,7 +289,7 @@ body {
 	}
 }
 
-.sampleDiv_mobile img {
+.sampleDiv img {
 	width: calc(50vw - 40px);
 	max-width: 150px;
 	aspect-ratio: 1/1;
@@ -301,7 +299,7 @@ body {
 }
 
 @media only screen and (orientation : landscape) {
-	.sampleDiv_mobile img {
+	.sampleDiv img {
 		width: calc(50vw - 50px);
 		max-width: 110px;
 	}
@@ -309,20 +307,20 @@ body {
 
 @media only screen and (min-device-width : 1224px)
 {
-	.sampleDiv_mobile img {
+	.sampleDiv img {
 		width: 500px;
 	}
 
 }
 
-.sampleDiv_mobile div {
+.sampleDiv div {
 	font-family: 'pixel-bold';
 	font-size: 1em;
 	text-align: center;
 }
 
 @media only screen and (orientation : landscape) {
-	.sampleDiv_mobile div {
+	.sampleDiv div {
 		width: 100%;
 		align-self: center;
 		word-break: keep-all;
@@ -333,7 +331,7 @@ body {
 {
 	@media (orientation : portrait)
 	{
-		.sampleDiv_mobile div {
+		.sampleDiv div {
 			width: 100%;
 			height: 30px;
 			align-content: center;

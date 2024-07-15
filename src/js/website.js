@@ -1,7 +1,7 @@
 import data from "../data/data.json";
 import dropdown from "../data/Dropdown.json";
 
-export default class Mobile
+export default class MainClass
 {
 	constructor ()
 	{
@@ -36,13 +36,13 @@ export default class Mobile
 	{
 		this.arrayOfProduct.forEach((item) => {
 			let url = new URL(item.image, import.meta.url).href;
-			let cardComponent = `<div class="sampleDiv_mobile">
+			let cardComponent = `<div class="sampleDiv">
 				<img src="${url}" alt="" />
 				<div>${item.title}</div>
 				<div>${item.price}</div>
 				</div>`;
 
-			document.querySelector(".productContainer_mobile").innerHTML += cardComponent;
+			document.querySelector(".productContainer").innerHTML += cardComponent;
 		});
 	}
 
@@ -52,20 +52,20 @@ export default class Mobile
 			if (item.tag == tag)
 			{
 				let url = new URL(item.image, import.meta.url).href;
-				let cardComponent = `<div class="sampleDiv_mobile">
+				let cardComponent = `<div class="sampleDiv">
 					<img src="${url}" alt="" />
 					<div>${item.title}</div>
 					<div>${item.price}</div>
 					</div>`;
 
-				document.querySelector(".productContainer_mobile").innerHTML += cardComponent;
+				document.querySelector(".productContainer").innerHTML += cardComponent;
 			}
 		});
 	}
 
 	destroyCard()
 	{
-		let productContainer = document.querySelector(".productContainer_mobile");
+		let productContainer = document.querySelector(".productContainer");
 		while (productContainer.lastElementChild)
 			productContainer.removeChild(productContainer.lastElementChild);
 		console.log(productContainer);
