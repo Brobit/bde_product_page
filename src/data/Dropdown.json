@@ -1,0 +1,42 @@
+[
+	{
+		"value": "all products",
+		"text": " Tous les produits",
+		"selected" : true
+	},
+	{
+		"value": "membership",
+		"text": "Adhésion",
+		"selected" : false
+	},
+	{
+		"value": "card",
+		"text": "Carte prépayée",
+		"selected" : false
+	},
+	{
+		"value": "drink",
+		"text": "Boissons",
+		"selected" : false
+	},
+	{
+		"value": "candy",
+		"text": "Bonbons",
+		"selected" : false
+	},
+	{
+		"value": "cake",
+		"text": "Gâteaux",
+		"selected" : false
+	},
+	{
+		"value": "iceCream",
+		"text": "Glace",
+		"selected" : false
+	},
+	{
+		"value": "salty",
+		"text": "salé",
+		"selected" : false
+	}
+]

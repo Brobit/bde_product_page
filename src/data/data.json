@@ -1,0 +1,373 @@
+[
+   {
+      "id":0,
+      "title":"Adhésion annuelle",
+      "image":"/logo.jpg",
+      "price":"30€",
+      "tag":"membership"
+   },
+   {
+      "id":1,
+      "title":"Adhésion trimestrielle",
+      "image":"/logo.jpg",
+      "price":"13€",
+      "tag":"membership"
+   },
+   {
+      "id":2,
+      "title":"Adhésion mensuel",
+      "image":"/logo.jpg",
+      "price":"4€",
+      "tag":"membership"
+   },
+   {
+      "id":3,
+      "title":"Carte prépayée adhérant",
+      "image":"/logo.jpg",
+      "price":"7€",
+      "tag":"card"
+   },
+   {
+      "id":4,
+      "title":"Carte prépayée",
+      "image":"/logo.jpg",
+      "price":"8€",
+      "tag":"card"
+   },
+   {
+      "id":5,
+      "title":"Coca cherry",
+      "image":"/coca-cherry.jpg",
+      "price":"0.80€",
+      "tag":"drink"
+   },
+   {
+      "id":6,
+      "title":"Coca cola",
+      "image":"/coca-cola.webp",
+      "price":"0.80€",
+      "tag":"drink"
+   },
+   {
+      "id":7,
+      "title":"Coca zéro",
+      "image":"/coca-cola-zero.webp",
+      "price":"0.80€",
+      "tag":"drink"
+   },
+   {
+      "id":8,
+      "title":"Eau",
+      "image":"/eau.jpg",
+      "price":"0.30€",
+      "tag":"drink"
+   },
+   {
+      "id":9,
+      "title":"Ice tea",
+      "image":"/ice_tea.jpg",
+      "price":"0.80€",
+      "tag":"drink"
+   },
+   {
+      "id":10,
+      "title":"Jus de pomme",
+      "image":"/jus-pomme.jpg",
+      "price":"0.60€",
+      "tag":"drink"
+   },
+   {
+      "id":11,
+      "title":"Jus d'orange",
+      "image":"/Jus-orange-brique.jpg",
+      "price":"0.60€",
+      "tag":"drink"
+   },
+   {
+      "id":12,
+      "title":"Jus multivitaminé",
+      "image":"/jus-multivitamine.jpeg",
+      "price":"0.60€",
+      "tag":"drink"
+   },
+   {
+      "id":13,
+      "title":"Lait chocolaté",
+      "image":"/lait-chocolat.jpg",
+      "price":"0.60€",
+      "tag":"drink"
+   },
+   {
+      "id":14,
+      "title":"Oasis pomme",
+      "image":"/oasis-pomme-cassis-33cl.jpg",
+      "price":"0.80€",
+      "tag":"drink"
+   },
+   {
+      "id":15,
+      "title":"Oasis tropical",
+      "image":"/oasis-tropical-canette-33cl.webp",
+      "price":"0.80€",
+      "tag":"drink"
+   },
+   {
+      "id":16,
+      "title":"Orangina",
+      "image":"/orangina-canette-metal-33-cl.jpg",
+      "price":"0.80€",
+      "tag":"drink"
+   },
+   {
+      "id":17,
+      "title":"Redbull",
+      "image":"/redbull.jpg",
+      "price":"1.2€",
+      "tag":"drink"
+   },
+   {
+      "id":18,
+      "title":"M&M's",
+      "image":"/m&m.webp",
+      "price":"0.60€",
+      "tag":"candy"
+   },
+   {
+      "id":19,
+      "title":"Smarties",
+      "image":"/smarties.jpeg",
+      "price":"0.20€",
+      "tag":"candy"
+   },
+   {
+      "id":20,
+      "title":"Bonbons unité",
+      "image":"/bonbon.jpg",
+      "price":"0.10€",
+      "tag":"candy"
+   },
+   {
+      "id":21,
+      "title":"Balisto miel",
+      "image":"/balisto-miel.webp",
+      "price":"0.50€",
+      "tag":"cake"
+   },
+   {
+      "id":22,
+      "title":"Barre de céréale",
+      "image":"/barre-cereale.webp",
+      "price":"0.50€",
+      "tag":"cake"
+   },
+   {
+      "id":23,
+      "title":"Compote",
+      "image":"/compote-gourde-bio.jpg",
+      "price":"0.50€",
+      "tag":"cake"
+   },
+   {
+      "id":24,
+      "title":"Gâteau milka",
+      "image":"/gateau-milka.jpg",
+      "price":"0.50€",
+      "tag":"cake"
+   },
+   {
+      "id":25,
+      "title":"Kinder bueno",
+      "image":"/kinder-bueno.jpg",
+      "price":"1€",
+      "tag":"cake"
+   },
+   {
+      "id":26,
+      "title":"Kinder country",
+      "image":"/kinder-country.webp",
+      "price":"0.50€",
+      "tag":"cake"
+   },
+   {
+      "id":27,
+      "title":"Kinder maxi",
+      "image":"/kinder-maxi.jpg",
+      "price":"0.50€",
+      "tag":"cake"
+   },
+   {
+      "id":28,
+      "title":"Kitkat",
+      "image":"/kit-kat.jpg",
+      "price":"0.80€",
+      "tag":"cake"
+   },
+   {
+      "id":29,
+      "title":"Lion",
+      "image":"/barre-lion.jpg",
+      "price":"0.60€",
+      "tag":"cake"
+   },
+   {
+      "id":30,
+      "title":"Mars",
+      "image":"/barre-mars.jpg",
+      "price":"0.60€",
+      "tag":"cake"
+   },
+   {
+      "id":31,
+      "title":"Bounty mini",
+      "image":"/bounty-mini.webp",
+      "price":"0.50€",
+      "tag":"cake"
+   },
+   {
+      "id":32,
+      "title":"Snickers",
+      "image":"/barre-snickers.webp",
+      "price":"0.60€",
+      "tag":"cake"
+   },
+   {
+      "id":33,
+      "title":"Twix",
+      "image":"/barre-twix.jpeg",
+      "price":"0.60€",
+      "tag":"cake"
+   },
+   {
+      "id":34,
+      "title":"Extrême chocolat",
+      "image":"/extreme-chocolat.jpg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":35,
+      "title":"Extrême menthe chocolat",
+      "image":"/extreme-menthe-chocolat.jpg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":36,
+      "title":"Extrême pistache chocolat",
+      "image":"/extreme-chocolat-pistache.jpg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":37,
+      "title":"Extrême sorbet fruit rouge",
+      "image":"/extreme-sorbet-fruit-rouge.jpg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":38,
+      "title":"Extrême vanille",
+      "image":"/extreme-vanille.jpeg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":39,
+      "title":"Extrême vanille fraise",
+      "image":"/extreme-vanille-fraise.jpg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":40,
+      "title":"Magnum amande",
+      "image":"/magnum-amande.avif",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":41,
+      "title":"Magnum double caramel",
+      "image":"/magnum-double-caramel.avif",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":42,
+      "title":"Magnum classique",
+      "image":"/magnum-classic.avif",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":43,
+      "title":"Mars glacé",
+      "image":"/mars-glace.jpg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":44,
+      "title":"Twix glacé",
+      "image":"/twix-glace.jpg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":45,
+      "title":"Snickers glacé",
+      "image":"/snickers-glace.jpg",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":46,
+      "title":"Trium chocolat blanc",
+      "image":"/trium-chocolat-blanc.png",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":47,
+      "title":"Trium vanille fruit rouge",
+      "image":"/trium-fuit-rouge.png",
+      "price":"0.80€",
+      "tag":"iceCream"
+   },
+   {
+      "id":48,
+      "title":"Mr.Freeze",
+      "image":"/mr-freeze.jpeg",
+      "price":"0.40€",
+      "tag":"iceCream"
+   },
+   {
+      "id":49,
+      "title":"Oasis vanille",
+      "image":"/glace-oasis-vanille.jpg",
+      "price":"0.40€",
+      "tag":"iceCream"
+   },
+   {
+      "id":50,
+      "title":"Petit pot",
+      "image":"/petit-pot.jpg",
+      "price":"0.40€",
+      "tag":"iceCream"
+   },
+   {
+      "id":51,
+      "title":"Chips nature",
+      "image":"/chips.webp",
+      "price":"0.50€",
+      "tag":"salty"
+   },
+   {
+      "id":52,
+      "title":"Plats cuisiné",
+      "image":"/plats-cuisine.jpg",
+      "price":"2.60€",
+      "tag":"salty"
+   }
+]
