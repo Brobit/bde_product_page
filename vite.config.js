@@ -7,7 +7,7 @@ export default {
 		open: !('SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env)
 	},
 	build: {
-		outdir: 'prod/',
+		outdir: '/dist/',
 		emptyOutDir: true,
 		sourcemap: true
 	}

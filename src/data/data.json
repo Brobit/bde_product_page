@@ -199,7 +199,7 @@
       "id":28,
       "title":"Kitkat",
       "image":"/kit-kat.jpg",
-      "price":"0.80€",
+      "price":"0.60€",
       "tag":"cake"
    },
    {
@@ -369,5 +369,12 @@
       "image":"/plats-cuisine.jpg",
       "price":"2.60€",
       "tag":"salty"
+   },
+   {
+      "id":53,
+      "title":"Madeleine",
+      "image":"/madeleine.jpg",
+      "price":"0.20€",
+      "tag":"cake"
    }
 ]
